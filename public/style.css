@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-size: 40px;
+    color: lightblue;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+.complement{
+    padding: 10px 10px;
+    margin: 20px 20%;
+    background-color:ivory;
+    color: black;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+}
+
+.complement:hover{
+    background-color: lightyellow;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-complement, .request-insult{
+    margin-left: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    color:peru;
+    background-color: burlywood;
+    border: 2px dotted gold;
+}
+
+.request-complement:hover{
+    color: black;
+    background-color: lightcyan;
+    border-color: lightgreen;
+}
+
+.request-insult:hover{
+    color: black;
+    background-color: lightcyan;
+    border-color: lightgreen;
+}
+
+.request-insult:active{
+color: greenyellow;
+background-color: black;
+}
+
+.request-complement:active{
+    color: greenyellow;
+    background-color: black;
+}
